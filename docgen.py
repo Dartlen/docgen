@@ -8,4 +8,3 @@ import engine.datatypes
 
 if __name__ == "__main__":
     gui.mainform.hhh()
-    print "ok"
