@@ -1,0 +1,16 @@
+<!-- Тут содержится описание блока br все его параметы и т.д
+что нужно для того что б он отобразился-->
+<xml version="1.0" encoding="UTF-8">
+<idevice>
+	<short_name>section</short_name>
+	<name>latex_section</name>	
+	<description>nazvanie pod glavi</description>
+	<have_content>yes</have_content> <!-- может иметь контент (то есть в блок можно ввести текст)  yes/no-->
+	<have_couple>no</have_couple><!-- парный или не парный yes/no-->
+	<param_container>yes</param_container>
+    <type_device>text</type_device> <!--table,link,text,none -->
+	<params>
+		
+	</params>	
+</idevice>
+</xml><!-- посмотрел структуру xml-документов и вроде там не заканчивалось этим тегом -->

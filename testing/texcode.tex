@@ -1,0 +1,70 @@
+\documentclass [russian,utf8,floatsection,equationsection] {eskdtext}
+
+
+\usepackage[titles]{tocloft}
+
+
+\ESKDsectStyle{section}{\bfseries}
+
+\ESKDsectStyle{subsection}{\bfseries}
+
+\ESKDsectStyle{subsubsection}{\bfseries}
+
+
+\usepackage{longtable}
+
+\usepackage{mathtext}
+
+\usepackage[T2A]{fontenc}
+
+
+\RequirePackage{amsmath}
+
+\RequirePackage{zref-perpage}
+
+\DeclareSymbolFont{T2Aletters}{T2A}{cmr}{m}{it}
+
+
+\usepackage{graphicx}
+
+\usepackage{multirow}
+\graphicspath{{images/}}\ESKDdepartment{}\ESKDcompany{}\\renewcommand{\ESKDtheTitleFieldV}{}\ESKDdocName{}\ESKDsignature{}\ESKDauthor{}\ESKDchecker{}\ESKDnormContr{}\ESKDapprovedBy{}\ESKDtitleApprovedBy{}{}\ESKDtitleAgreedBy{}{}\ESKDtitleDesignedBy{}{}\ESKDtitleDesignedBy{}{}\\renewcommand{\ESKDtheTitleFieldX}{}\ESKDcolumnI{\ESKDfontIII{}}
+\usepackage{floatrow}
+\usepackage{array,fr-longtable}
+\floatsetup[longtable]{LTcapwidth=table,margins=centering}
+\renewcommand\cftsecfont{\normalfont}
+\renewcommand{\cftsecpagefont}{\normalfont}
+\zmakeperpage{footnote}
+\let\footnotesize\small
+\renewcommand{\thefootnote}{\arabic{footnote})}
+\begin {document}
+\maketitle
+\setcounter{page}{5}
+\tableofcontents
+            \begin{itemize}
+\item fsafsa
+\item fsafsafa
+\item dfasfsafsa
+\end{itemize}
+\newpage
+\section{русские буквы}
+\subsection{SUBSECT}
+\begin {longtable}
+{|p{11cm}|p{5cm}|p{6cm}}
+\caption{namelabeltable}
+\label{ssilka_na_tabl} \\
+\hline
+1&2&3\\
+\hline
+\endfirsthead
+\caption{Prodoljenie tablici \ref{ssilka_na_tabl} }\\
+\hline
+1&2&3\\
+\endhead
+11&22&33\\
+\hline
+111&222&333\\
+\hline
+\end {longtable}
+
+prosto text\end {document}

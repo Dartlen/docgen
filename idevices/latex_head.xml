@@ -1,0 +1,119 @@
+<!-- Тут содержится описание блока br все его параметы и т.д
+что нужно для того что б он отобразился-->
+<xml version="1.0" encoding="UTF-8">
+<idevice>
+	<short_name>head</short_name>
+	<name>latex_head</name>
+	<description>nazvanie pod glavi</description>
+	<have_content>no</have_content> <!-- может иметь контент (то есть в блок можно ввести текст)  yes/no-->
+	<have_couple>yes</have_couple><!-- парный или не парный yes/no-->
+	<param_container>no</param_container>
+    <type_device></type_device> <!--table,link,text,none -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<params>
+	
+		<param id="1">
+         <param_tag>\graphicspath</param_tag>
+         <param_type>string</param_type>
+		 <param_value>{{images/}}</param_value>
+		</param>  
+		
+		<param id="2">
+            <param_tag>\ESKDdepartment</param_tag>
+	        <param_type>string</param_type> <!-- тип параметра могут быть integer, date, string -->
+		    <param_value>{}</param_value>
+		</param>
+        <param id="3">
+            <param_tag>\ESKDcompany</param_tag>
+            <param_type>string</param_type> <!-- тип параметра могут быть integer, date, string -->
+            <param_value>{}</param_value>
+        </param>
+        <param id="4">
+            <param_tag>\\renewcommand{\ESKDtheTitleFieldV}</param_tag>
+            <param_type>string</param_type> <!-- тип параметра могут быть integer, date, string -->
+            <param_value>{}</param_value>
+        </param>
+        <param id="5">
+            <param_tag>\ESKDdocName</param_tag>
+            <param_type>string</param_type> <!-- тип параметра могут быть integer, date, string -->
+            <param_value>{}</param_value>
+        </param>
+        <param id="6">
+            <param_tag>\ESKDsignature</param_tag>
+            <param_type>string</param_type> <!-- тип параметра могут быть integer, date, string -->
+            <param_value>{}</param_value>
+        </param>
+        <param id="7">
+            <param_tag>\ESKDauthor</param_tag>
+            <param_type>string</param_type> <!-- тип параметра могут быть integer, date, string -->
+            <param_value>{}</param_value>
+        </param>
+        <param id="8">
+            <param_tag>\ESKDchecker</param_tag>
+            <param_type>string</param_type> <!-- тип параметра могут быть integer, date, string -->
+            <param_value>{}</param_value>
+        </param>
+        <param id="9">
+            <param_tag>\ESKDnormContr</param_tag>
+            <param_type>string</param_type> <!-- тип параметра могут быть integer, date, string -->
+            <param_value>{}</param_value>
+        </param>
+        <param id="10">
+            <param_tag>\ESKDapprovedBy</param_tag>
+            <param_type>string</param_type> <!-- тип параметра могут быть integer, date, string -->
+            <param_value>{}</param_value>
+        </param>
+        <param id="11">
+            <param_tag>\ESKDtitleApprovedBy</param_tag>
+            <param_type>string</param_type> <!-- тип параметра могут быть integer, date, string -->
+            <param_value>{}{}</param_value>
+        </param>
+        <param id="12">
+            <param_tag>\ESKDtitleAgreedBy</param_tag>
+            <param_type>string</param_type> <!-- тип параметра могут быть integer, date, string -->
+            <param_value>{}{}</param_value>
+        </param>
+        <param id="13">
+            <param_tag>\ESKDtitleDesignedBy</param_tag>
+            <param_type>string</param_type> <!-- тип параметра могут быть integer, date, string -->
+            <param_value>{}{}</param_value>
+        </param>
+        <param id="14">
+            <param_tag>\ESKDtitleDesignedBy</param_tag>
+            <param_type>string</param_type> <!-- тип параметра могут быть integer, date, string -->
+            <param_value>{}{}</param_value>
+        </param>
+        <param id="15">
+            <param_tag>\\renewcommand{\ESKDtheTitleFieldX}</param_tag>
+            <param_type>string</param_type> <!-- тип параметра могут быть integer, date, string -->
+            <param_value>{}</param_value>
+        </param>
+        <param id="16">
+            <param_tag>\ESKDcolumnI</param_tag>
+            <param_type>string</param_type> <!-- тип параметра могут быть integer, date, string -->
+            <param_value>{\ESKDfontIII{}}</param_value>
+        </param>
+
+	</params>	
+</idevice>
+</xml><!-- посмотрел структуру xml-документов и вроде там не заканчивалось этим тегом -->
